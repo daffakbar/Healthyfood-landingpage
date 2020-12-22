@@ -1,15 +1,15 @@
-### Duplicate Website Refactory
+## Duplicate Website Refactory
 
 [Refactory](https://refactory.id/)
 
-## Technology used
+### Technology used
 
 * Tailwindcss [tailwindcss](https://tailwindcss.com/)
 * splide.js [splidejs](https://splidejs.com/)
 * ScrollRevealjs [scrollrevealjs](https://scrollrevealjs.org/)
 * illustrations from [gumroad](https://gumroad.com/)
 
-## Technology used
+### Description
 
 * Dengan tema dominasi warna putih menimbulkan kesan informatif, jelas, dan profesional.
 * Ilustrasi kartun memberikan kesan anak muda 
