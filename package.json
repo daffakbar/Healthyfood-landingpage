@@ -1,0 +1,22 @@
+{
+  "name": "refactory",
+  "version": "1.0.0",
+  "description": "[Landing Page](https://www.tailwindtoolbox.com/templates/landing-page) is an open source, generic landing page template for [Tailwind CSS](https://tailwindcss.com/) created by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:prod": "NODE_ENV=production postcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:watch": "onchange 'tailwind.config.js' 'src/**/*.css' -- npm run tw:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "onchange": "^7.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
