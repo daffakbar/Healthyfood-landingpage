@@ -5,7 +5,12 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'pinkred' : '#FF5B5B',
+        'pinklight' : '#ffecec',
+      },
+    },
   },
   variants: {
     extend: {},

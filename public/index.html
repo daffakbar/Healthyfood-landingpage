@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Home - Refactory
+      Healthy Food
     </title>
-    <meta name="description" content="Empowering People Through Programming
-    Refactory adalah perusahaan edukasi dan teknologi yang menyediakan layanan lengkap berupa course maupun custom training yang materinya dapat disesuaikan dengan kebutuhan teknologi dan bisnis perusahaan Anda." />
-    <meta name="keywords" content="Refactory" />
+    <meta name="description" content="Fresh healthy Delicious food" />
+    <meta name="keywords" content="Healthy Food" />
     <meta name="author" content="Daffa Akbar" />
     
     <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="icon" href="img/icon.png">
+    <link rel="icon" href="img/salad.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <style>
       .gradient {
         background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+      }
+      .imgm {
+        clip-path: polygon(3% 9%, 5% 2%, 15% 0%, 100% 0, 100% 100%, 11% 100%);
+      }
+      .imgb {
+        clip-path: polygon(8% 0, 89% 0, 100% 8%, 100% 93%, 95% 100%, 8% 100%, 0 95%, 0 6%);
       }
     </style>
   </head>
@@ -27,9 +32,9 @@
     <nav id="" class="fixed top-0 z-30 w-full text-black gradient scroll1">
       <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
         <div class="flex items-center pl-4">
-          <a class="text-2xl font-bold text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+          <a class="text-xs font-bold text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
             <!--Icon from: http://www.potlabicons.com/ -->
-            <img src="img/refactory-logo.png" alt="" width="120" srcset="">
+            <img src="img/salad.png" alt="" width="42" srcset="" class="inline"> <span class="text-2xl ">HEALTHY FOOD</span>  
             
           </a>
         </div>
@@ -44,19 +49,25 @@
         <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
           <ul class="items-center justify-end flex-1 list-reset lg:flex">
             <li class="mr-3">
-              <a class="inline-block px-4 py-2 text-xl font-bold text-black no-underline hover:text-yellow-500" href="#">Home</a>
+              <a class="inline-block px-4 py-2 text-xl font-bold no-underline text-pinkred " href="#">Home</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block px-4 py-2 text-black no-underline hover:text-yellow-500 hover:text-underline" href="#">Course</a>
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#">Catering</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block px-4 py-2 text-black no-underline hover:text-yellow-500 hover:text-underline" href="#">Custom Trainings</a>
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#">Menu</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block px-4 py-2 text-black no-underline hover:text-yellow-500 hover:text-underline" href="#">Case Studies</a>
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#">Cafe</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block px-4 py-2 text-black no-underline hover:text-yellow-500 hover:text-underline" href="#">Blog</a>
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#">About</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#">Contact us</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block px-4 py-2 text-black no-underline hover:text-pinkred hover:text-underline" href="#"><img src="img/icon-basket.png" width="24" alt="" srcset=""></a>
             </li>
           </ul>
           
@@ -68,208 +79,323 @@
     <div class="pt-24">
       <div class="container flex flex-col flex-wrap items-center px-3 mx-auto md:flex-row">
         <!--Left Col-->
-        <div class="flex flex-col items-start justify-center w-full text-center md:w-2/5 md:text-left ">
+        <div class="flex flex-col items-start justify-center w-full text-center md:w-2/6 md:text-left ">
           <h1 class="my-4 text-5xl font-bold leading-tight scroll2">
-            Empowering <span class="text-yellow-500 ">People</span>  Through Programming
+            Fresh healthy <P></P><span class="text-pinkred ">Delicious </span>food
           </h1>
           <p class="mb-8 text-xl leading-normal scroll2">
-            Refactory adalah perusahaan edukasi dan teknologi yang menyediakan layanan lengkap berupa course maupun custom training yang materinya dapat disesuaikan dengan kebutuhan teknologi dan bisnis perusahaan Anda.
+            Provides a menu with a healthy lifestyle concept with delicious taste.
           </p>
          
-            <div class=" scroll3">
-              <button class="px-8 py-4 mx-auto my-6 font-bold text-gray-800 transition duration-300 ease-in-out transform rounded-full shadow-lg hover:text-yellow-500 lg:mx-0 gradient focus:outline-none focus:shadow-outline hover:scale-105">
-                Temukan Solusi Anda
-              </button>
-              <button class="px-8 py-4 mx-auto my-6 font-bold text-gray-800 transition duration-300 ease-in-out transform rounded-full shadow-lg hover:text-yellow-500 lg:mx-0 gradient focus:outline-none focus:shadow-outline hover:scale-105">
-                Tingkatkan skill Anda
+            <div class="">
+              <button class="px-8 py-4 mx-auto my-6 font-bold text-white transition duration-300 ease-in-out transform rounded-full shadow-lg bg-pink-light lg:mx-0 bg-pinkred hover:scale-105">
+                Our Catering Packages
               </button>
             </div>
          
         </div>
         <!--Right Col-->
-        <div class="flex justify-center w-full py-6 text-center md:w-3/5 scroll4">
-          <img class="w-full md:w-4/5" src="img/Building-Product.png" />
+        <div class="flex justify-end w-full py-6 md:w-4/6 ">
+          <img class="w-full md:w-4/5 imgm" src="img/luisa-brimble-2RrBE90w0T8-unsplash.jpg" />
         </div>
       </div>
     </div>
     
-    <section class="py-8 bg-white">
+    <section class="py-5 bg-gray-50">
       <div class="container max-w-5xl m-8 mx-auto">
         <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 scroll1">
-          Apa Yang Refactory Dapat Bantu?
+          Popular Healthy Food
         </h1>
-        
-        <div class="flex flex-wrap scroll2">
-          <div class="self-center w-5/6 p-6 sm:w-1/2">
-            <h3 class="mb-3 text-3xl font-bold leading-none text-gray-800">
-              Memperkuat Tim Engineer Anda
-            </h3>
-            <p class="mb-8 text-gray-600">
-              Bisnis di jaman modern membutuhkan keterampilan pengembangan terbaik untuk meningkatkan skala produk. Kami dapat mempersiapkan course dan juga dapat menyediakan tim yang menangani kebutuhan digital Anda.
-              
-            </p>
-          </div>
-          <div class="w-full p-6 sm:w-1/2 scroll3">
-              <img src="img/Office.png" alt="" srcset="">
-          </div>
+        <div class="flex justify-center ">
+          <button class="px-4 my-6 rounded-full bg-pinklight text-pinkred">Salad</button>
+          <button class="px-4 my-6 rounded-full ">Juice</button>
+          <button class="px-4 my-6 rounded-full ">Smoothies</button>
+          <button class="px-4 my-6 rounded-full ">Yogurt</button>
         </div>
-        <div class="flex flex-col-reverse flex-wrap sm:flex-row scroll4">
-          <div class="w-full p-6 mt-6 sm:w-1/2">
-            <img src="img/Product-Launch.png" alt="">
+        <!-- component -->
+      <div class="container px-4 mx-auto my-6 md:px-12">
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+
+          <!-- Column -->
+          <div class="w-full px-1 my-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 ">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg bg-pinklight">
+
+              <a href="#">
+                <img alt="Placeholder" class="block w-auto h-auto p-3" src="img/circle-cropped.png">
+              </a>
+
+              <header class="flex items-center justify-center p-2 leading-tight md:p-4">
+                <img src="img/star.svg" class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg" class="mx-1"  width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+              </header>
+              <section class="flex items-center justify-center text-base">
+                Premium Salad
+              </section>
+
+              <footer class="flex justify-between p-2 leading-none md:p-4">
+                <a class="flex items-center text-black no-underline hover:underline" href="#">
+                  <button class="px-5 py-1 text-white rounded-full bg-pinkred">
+                    Add +
+                  </button>
+                  
+                </a>
+                <p class="ml-2 text-sm font-bold text-pinkred">
+                  $35.00
+                </p>
+                
+              </footer>
+
+            </article>
+            <!-- END Article -->
+
           </div>
-          <div class="self-center w-full p-6 mt-6 sm:w-1/2 scroll5">
-            <div class="align-middle">
-              <h3 class="mb-3 text-3xl font-bold leading-none text-gray-800">
-                Wujudkan Software Impian Anda
-              </h3>
-              <p class="mb-8 text-gray-600">
-                Kami adalah perusahaan One-Stop IT Solution untuk proyek Anda, membantu di setiap tahap mulai dari menyusun ide, melalui desain dan pengembangan aplikasi seluler, situs web dan aplikasi desktop, hingga peluncuran produk.          
-              </p>
-            </div>
+          <!-- END Column -->
+
+           <!-- Column -->
+           <div class="w-full px-1 my-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 ">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg bg-pinklight">
+
+              <a href="#">
+                <img alt="Placeholder" class="block w-auto h-auto p-3" src="img/circle-cropped (2).png">
+              </a>
+
+              <header class="flex items-center justify-center p-2 leading-tight md:p-4">
+                <img src="img/star.svg" class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg" class="mx-1"  width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+              </header>
+              <section class="flex items-center justify-center text-base">
+                Green salad
+              </section>
+
+              <footer class="flex justify-between p-2 leading-none md:p-4">
+                <a class="flex items-center text-black no-underline hover:underline" href="#">
+                  <button class="px-5 py-1 text-white rounded-full bg-pinkred">
+                    Add +
+                  </button>
+                  
+                </a>
+                <p class="ml-2 text-sm font-bold text-pinkred">
+                  $24.00
+                </p>
+                
+              </footer>
+
+            </article>
+            <!-- END Article -->
+
           </div>
+          <!-- END Column -->
+
+           <!-- Column -->
+           <div class="w-full px-1 my-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 ">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg bg-pinklight">
+
+              <a href="#">
+                <img alt="Placeholder" class="block w-auto h-auto p-3" src="img/circle-cropped (3).png">
+              </a>
+
+              <header class="flex items-center justify-center p-2 leading-tight md:p-4">
+                <img src="img/star.svg" class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg" class="mx-1"  width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+              </header>
+              <section class="flex items-center justify-center text-base">
+                Fruits Salad
+              </section>
+
+              <footer class="flex justify-between p-2 leading-none md:p-4">
+                <a class="flex items-center text-black no-underline hover:underline" href="#">
+                  <button class="px-5 py-1 text-white rounded-full bg-pinkred">
+                    Add +
+                  </button>
+                  
+                </a>
+                <p class="ml-2 text-sm font-bold text-pinkred">
+                  $19.00
+                </p>
+                
+              </footer>
+
+            </article>
+            <!-- END Article -->
+
+          </div>
+          <!-- END Column -->
+           <!-- Column -->
+           <div class="w-full px-1 my-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 ">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg bg-pinklight">
+
+              <a href="#">
+                <img alt="Placeholder" class="block w-auto h-auto p-3" src="img/circle-cropped (4).png">
+              </a>
+
+              <header class="flex items-center justify-center p-2 leading-tight md:p-4">
+                <img src="img/star.svg" class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg" class="mx-1"  width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+                <img src="img/star.svg"  class="mx-1" width="12" alt="">
+              </header>
+              <section class="flex items-center justify-center text-base">
+                Pasta Salad
+              </section>
+
+              <footer class="flex justify-between p-2 leading-none md:p-4">
+                <a class="flex items-center text-black no-underline hover:underline" href="#">
+                  <button class="px-5 py-1 text-white rounded-full bg-pinkred">
+                    Add +
+                  </button>
+                  
+                </a>
+                <p class="ml-2 text-sm font-bold text-pinkred">
+                  $29.00
+                </p>
+                
+              </footer>
+
+            </article>
+            <!-- END Article -->
+
+          </div>
+          <!-- END Column -->
+
+        </div>
+      </div>
+        
+      </div>
+    </section>
+    
+    <section class="py-5 pb-5 mx-auto text-center bg-gray-100">
+      <div class="flex justify-center ">
+        <div class="mx-10">
+          <h1 class="text-xl font-bold ">200+</h1>
+          <p>MENU</p>
+        </div>
+        <div class="mx-10">
+          <h1 class="text-xl font-bold">20.000+</h1>
+          <p>CUSTOMER</p>
+        </div>
+        <div class="mx-10">
+          <h1 class="text-xl font-bold">400.000+</h1>
+          <p>DELIVERED</p>
         </div>
       </div>
     </section>
     
-    <section class="container py-6 mx-auto mb-12 text-center">
-      <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-black scroll2">
-        AS SEEN ON
-      </h1>
-      
-      <div class="hidden lg:flex splide scroll3" id="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/cnn.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/medcom.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/beritasatu.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/kumparan.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/idn.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/viva.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/mi.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/tribun.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/jawapos.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/inilah.png" alt="" srcset=""></li>
-          </ul>
-        </div>
+    <section class="py-12 mx-auto text-center bg-gray-50 ">
+     <div class="flex ">
+      <div class="flex justify-center w-1/2 ">
+        <img src="img/food-ordering-app1.jpg" class=" imgb" width="400" alt="">
       </div>
-      <div class="lg:hidden splide scroll3" id="splide2">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/cnn.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/medcom.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/beritasatu.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/kumparan.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/idn.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/viva.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/mi.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/tribun.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/jawapos.png" alt="" srcset=""></li>
-            <li class="flex items-center justify-center p-5 splide__slide"><img src="img/inilah.png" alt="" srcset=""></li>
-          </ul>
+      <div class="w-1/2 py-20">
+        <div class="text-left ">
+          <h1 class="text-5xl font-bold ">Download our app <br> and <span class="leading-10 text-pinkred">Order Now</span></h1>
+          <br>
+          <p class="text-xl text-gray-500 ">You don't have to cook fancy or elaborate masterpieces just good food <br> from fresh ingridients.</p>
+          
         </div>
-      </div>
+        <div class="flex mt-5">
+          <img src="img/Available_on_the_App_Store_(black).png" width="150" alt="" class="m-4 ">
+          <img src="img/google.png" width="150" alt="" class="m-4 ">
+        </div>
+      </div> 
+     </div>
     </section>
     <!--Footer-->
-    <footer class="bg-white">
+    <footer class="bg-gray-200">
       <div class="container px-8 mx-auto scroll3">
-        <div class="flex flex-col w-full py-6 md:flex-row">
-          <div class="flex-1 mb-6 text-black">
-            <a class="text-2xl font-bold text-pink-600 no-underline hover:no-underline lg:text-4xl" href="#">
-              <img src="img/refactory-logo.png" width="100" alt="" srcset="">
+        <div class="flex flex-col w-full py-4 md:flex-row">
+          <div class="justify-center flex-1">
+            <a class="text-xs text-black no-underline toggleColour hover:no-underline lg:text-4xl" href="#">
+              <!--Icon from: http://www.potlabicons.com/ -->
+              <img src="img/salad.png" alt="" width="42" srcset="" class="inline my-20"> <span class="text-2xl ">HEALTHY FOOD</span>  
+              
             </a>
           </div>
           <div class="flex-1">
-            <p class="text-gray-500 uppercase md:mb-6">Site Map</p>
+            <p class="font-bold uppercase md:mb-6">Special Packages</p>
             <ul class="mb-6 list-reset">
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Home</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Vegetarian</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Bootcamp</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">General Diet</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Software Development</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Mayo Diet</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Course</a>
-              </li>
-              <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Custom Trainings</a>
-              </li>
-              <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Blog</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Fitness Diet</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="text-gray-500 uppercase md:mb-6">Company</p>
+            <p class="font-bold uppercase md:mb-6">Company</p>
             <ul class="mb-6 list-reset">
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">About Us</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Carrer</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Carrer</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Terms of Services</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Press Kit</a>
-              </li>
-              <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">FAQ</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Privacy Policy</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="text-gray-500 uppercase md:mb-6">Connect</p>
+            <p class="font-bold uppercase md:mb-6">Social Media</p>
             <ul class="mb-6 list-reset">
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Facebook</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Facebook</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Instagram</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Instagram</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Youtube</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Youtube</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Linkedln</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">Linkedln</a>
               </li>
             </ul>
           </div>
           
           <div class="flex-1">
-            <p class="text-gray-500 uppercase md:mb-6">Contact</p>
+            <p class="font-bold uppercase md:mb-6">Be Our Partner</p>
             <ul class="mb-6 list-reset">
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">marketing@refactory.id</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">6, Ciputra Residence, Surabaya</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">+62 8122 8203 381</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">cs@healhtyfood.com</a>
               </li>
               <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Dewita: 0857 2582 7222</a>
+                <a href="#" class="text-gray-800 no-underline hover:text-pinkred">021 - 1234 - 2345</a>
               </li>
-              <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <a href="#" class="text-gray-800 no-underline hover:text-pink-500">Septin: 0878 2080 0206</a>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="text-gray-500 uppercase md:mb-6">Company Address</p>
-            <ul class="mb-6 list-reset">
-              <li class="inline-block mt-2 mr-2 md:block md:mr-0">
-                <p class="text-gray-800 no-underline hover:text-yellow-500">Jln. Palagan Tentara Pelajar
-                  Km. 9,8
-                  Ngaglik, Kab. Sleman
-                  DI Yogyakarta 55581</p>
-              </li>
-              
             </ul>
           </div>
         </div>
       </div>
       <div class="flex justify-center scroll3 ">
-        <a href="https://refactory.id/" class="text-gray-600"> 
-          © 2020 Refactory - All Rights Reserved - Terms of Services / Privacy Policy</a>
+        <a href="#" class="m-5 text-gray-600"> 
+          © 2020 Healthy Food - All Rights Reserved - Terms of Services / Privacy Policy</a>
       </div>
     </footer>
     

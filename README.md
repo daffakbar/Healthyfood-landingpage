@@ -1,18 +1,14 @@
-## Duplicate Website Refactory
+## Replicate Website From Figma (Healhty Food)
 
-[Refactory](https://refactory.id/)
+[Healhty Food](https://www.figma.com/proto/WkcO0NQdqYiWWDtai5AvrQ/Healthy-Food-FE-Refactory?node-id=1%3A2&scaling=min-zoom)
 
 ### Technology used
 
 * Tailwindcss [tailwindcss](https://tailwindcss.com/)
-* splide.js [splidejs](https://splidejs.com/)
 * ScrollRevealjs [scrollrevealjs](https://scrollrevealjs.org/)
-* illustrations from [gumroad](https://gumroad.com/)
+* Images from [unsplash](http://unsplash.com/)
 
 ### Description
 
-* Dengan tema dominasi warna putih menimbulkan kesan informatif, jelas, dan profesional.
-* Ilustrasi kartun memberikan kesan anak muda 
-* Terlihat Simple dan Clean 
-* Warna kuning memberi arti optimis dan semangat
-* warna ungu dianggap mampu menarik perhatian, memancarkan kekuatan–bahkan tidak lepas dari kesan lain, seperti ambisius, independen, kebijaksanaan, visioner
+* Menduplikasi halaman landing page dari figma
+* Mengubah background color dengan perpaduan warna white dan grey
